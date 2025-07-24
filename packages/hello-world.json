@@ -1,7 +1,13 @@
+// packages/hello-world.json
 {
-    "name": "hello-world",
-    "decription": "Ein einfaches Beispielprogramm :)",
-    "version": "1.0.0",
-    "repository": "https://github.com/devgitler0304/hello-world-cli.git",
-    
+  "name": "hello-world",
+  "description": "Ein einfaches Beispielprogramm",
+  "version": "1.0.0",
+  "repository": "https://github.com/deinuser/hello-world-cli.git",
+  "install": {
+    "type": "git",
+    "path": "bin/hello-world.sh",
+    "target_dir": "~/.local/bin",
+    "executable": true
+  }
 }
