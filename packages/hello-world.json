@@ -1,1 +1,6 @@
-
+{
+    "name": "hello-world",
+    "decription": "Ein einfaches Beispielprogramm :)",
+    "version": "1.0.0",
+    "repository": "https://github.com/devgitler0304/devpkg-packages/edit/main/packages/hello-world.json",
+}
